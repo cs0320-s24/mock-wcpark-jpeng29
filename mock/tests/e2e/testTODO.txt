@@ -1,0 +1,22 @@
++search success
++search no values found with the parameters
++search fail
++search with invalid parameters
+
++view success
++view fail - wrong file
++view fail - no file loaded
+
++load_file success
++load_file fail - file does not exist
++load_file invalid parameters
+
++mode success
++mode success consectuive
+mode success with load_file
+
++boo success
+
+load_file viewfile mode loadfile viewfile mode searchfile mode searchfile
+
+load_file load_file viewfile
